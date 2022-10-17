@@ -1,0 +1,306 @@
+{
+  "menu": [
+    {
+      "linkText": "Home Page",
+      "link": "/"
+    },
+    {
+      "linkText": "Product Category",
+      "link": "/category"
+    },
+    {
+      "linkText": "About",
+      "link": "/about"
+    }
+  ],
+  "productList": [
+    {
+      "id": "1",
+      "title": "Product item 1",
+      "link": "product1",
+      "categoryLink": "/category",
+      "image": "img1.jpg",
+      "price": "1200",
+      "discount": 0,
+      "characteristic": [
+        {
+          "title": "Weight",
+          "value": "1000",
+          "postfix": "kg"
+        },
+        {
+          "title": "Height",
+          "value": "2",
+          "postfix": "m"
+        },
+        {
+          "title": "Color",
+          "value": "red",
+          "postfix": ""
+        },
+        {
+          "title": "Guarantee",
+          "value": "2",
+          "postfix": "month"
+        }
+      ],
+      "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lectus urna, pretium eget sapien vel, tincidunt dapibus libero. Sed elit diam, tincidunt a erat nec, finibus dictum nibh. Vivamus sed lorem id lectus <b>ullamcorper tincidunt</b>. Nunc erat nulla, posuere in velit id, suscipit commodo lorem. Morbi aliquam vitae arcu sit amet mollis.</p><p>Donec varius justo justo, id lacinia arcu lacinia sit amet. Nunc quis leo quis arcu consectetur euismod. Nunc volutpat tempus sem, id bibendum nibh blandit et. Aliquam in mi aliquam, varius sem et, rutrum enim. Sed lacinia elit vel elementum pharetra. Proin maximus orci vel odio viverra gravida. Quisque et augue sed purus interdum congue quis ac nibh.</p><table> <thead> <tr> <th>Table title 1</th> <th>Table title 2</th> </tr></thead> <tbody> <tr> <td>table td 1</td><td>Morbi aliquam vitae arcu sit amet mollis</td></tr><tr> <td>table td 1</td><td>Morbi aliquam vitae arcu sit amet mollis</td></tr></tbody></table>"
+    },
+    {
+      "id": "2",
+      "title": "Product item 2",
+      "link": "product2",
+      "categoryLink": "/category",
+      "image": "img2.jpg",
+      "price": "1600",
+      "discount": 10,
+      "characteristic": [
+        {
+          "title": "Weight",
+          "value": "1000",
+          "postfix": "kg"
+        },
+        {
+          "title": "Height",
+          "value": "2",
+          "postfix": "m"
+        },
+        {
+          "title": "Color",
+          "value": "red",
+          "postfix": ""
+        },
+        {
+          "title": "Guarantee",
+          "value": "2",
+          "postfix": "month"
+        }
+      ],
+      "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lectus urna, pretium eget sapien vel, tincidunt dapibus libero. Sed elit diam, tincidunt a erat nec, finibus dictum nibh. Vivamus sed lorem id lectus <b>ullamcorper tincidunt</b>. Nunc erat nulla, posuere in velit id, suscipit commodo lorem. Morbi aliquam vitae arcu sit amet mollis.</p><p>Donec varius justo justo, id lacinia arcu lacinia sit amet. Nunc quis leo quis arcu consectetur euismod. Nunc volutpat tempus sem, id bibendum nibh blandit et. Aliquam in mi aliquam, varius sem et, rutrum enim. Sed lacinia elit vel elementum pharetra. Proin maximus orci vel odio viverra gravida. Quisque et augue sed purus interdum congue quis ac nibh.<ul> <li>unordered list 1</li><li>unordered list 2</li><li>unordered list 3 <ul> <li>unordered list 3.1</li></ul> </li></ul> <ol> <li>ordered list 1</li><li>ordered list 2</li><li>ordered list 3</li></ol></p>"
+    },
+    {
+      "id": "3",
+      "title": "Long product name item 3",
+      "link": "product3",
+      "categoryLink": "/category",
+      "image": "img3.jpg",
+      "price": "1600",
+      "discount": 0,
+      "characteristic": [
+        {
+          "title": "Weight",
+          "value": "1000",
+          "postfix": "kg"
+        },
+        {
+          "title": "Height",
+          "value": "2",
+          "postfix": "m"
+        },
+        {
+          "title": "Color",
+          "value": "red",
+          "postfix": ""
+        },
+        {
+          "title": "Guarantee",
+          "value": "2",
+          "postfix": "month"
+        }
+      ],
+      "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lectus urna, pretium eget sapien vel, tincidunt dapibus libero. Sed elit diam, tincidunt a erat nec, finibus dictum nibh. Vivamus sed lorem id lectus <b>ullamcorper tincidunt</b>. Nunc erat nulla, posuere in velit id, suscipit commodo lorem. Morbi aliquam vitae arcu sit amet mollis.</p><p>Donec varius justo justo, id lacinia arcu lacinia sit amet. Nunc quis leo quis arcu consectetur euismod. Nunc volutpat tempus sem, id bibendum nibh blandit et. Aliquam in mi aliquam, varius sem et, rutrum enim. Sed lacinia elit vel elementum pharetra. Proin maximus orci vel odio viverra gravida. Quisque et augue sed purus interdum congue quis ac nibh.</p>"
+    },
+    {
+      "id": "4",
+      "title": "Product item 4",
+      "link": "product4",
+      "categoryLink": "/category",
+      "image": "img1.jpg",
+      "price": "1800",
+      "discount": 0,
+      "characteristic": [
+        {
+          "title": "Weight",
+          "value": "700",
+          "postfix": "kg"
+        },
+        {
+          "title": "Height",
+          "value": "2",
+          "postfix": "m"
+        },
+        {
+          "title": "Color",
+          "value": "red",
+          "postfix": ""
+        },
+        {
+          "title": "Guarantee",
+          "value": "3",
+          "postfix": "year"
+        }
+      ],
+      "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lectus urna, pretium eget sapien vel, tincidunt dapibus libero. Sed elit diam, tincidunt a erat nec, finibus dictum nibh. Vivamus sed lorem id lectus <b>ullamcorper tincidunt</b>. Nunc erat nulla, posuere in velit id, suscipit commodo lorem. Morbi aliquam vitae arcu sit amet mollis.</p><p>Donec varius justo justo, id lacinia arcu lacinia sit amet. Nunc quis leo quis arcu consectetur euismod. Nunc volutpat tempus sem, id bibendum nibh blandit et. Aliquam in mi aliquam, varius sem et, rutrum enim. Sed lacinia elit vel elementum pharetra. Proin maximus orci vel odio viverra gravida. Quisque et augue sed purus interdum congue quis ac nibh.</p>"
+    },
+    {
+      "id": "5",
+      "title": "Product item 5",
+      "link": "product5",
+      "categoryLink": "/category",
+      "image": "img1.jpg",
+      "price": "900",
+      "discount": 50,
+      "characteristic": [
+        {
+          "title": "Weight",
+          "value": "700",
+          "postfix": "kg"
+        },
+        {
+          "title": "Height",
+          "value": "2",
+          "postfix": "m"
+        },
+        {
+          "title": "Color",
+          "value": "red",
+          "postfix": ""
+        },
+        {
+          "title": "Guarantee",
+          "value": "3",
+          "postfix": "year"
+        }
+      ],
+      "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lectus urna, pretium eget sapien vel, tincidunt dapibus libero. Sed elit diam, tincidunt a erat nec, finibus dictum nibh. Vivamus sed lorem id lectus <b>ullamcorper tincidunt</b>. Nunc erat nulla, posuere in velit id, suscipit commodo lorem. Morbi aliquam vitae arcu sit amet mollis.</p><p>Donec varius justo justo, id lacinia arcu lacinia sit amet. Nunc quis leo quis arcu consectetur euismod. Nunc volutpat tempus sem, id bibendum nibh blandit et. Aliquam in mi aliquam, varius sem et, rutrum enim. Sed lacinia elit vel elementum pharetra. Proin maximus orci vel odio viverra gravida. Quisque et augue sed purus interdum congue quis ac nibh.</p>"
+    },
+    {
+      "id": "6",
+      "title": "Product item 6",
+      "link": "product6",
+      "categoryLink": "/category",
+      "image": "img2.jpg",
+      "price": "2500",
+      "discount": 0,
+      "characteristic": [
+        {
+          "title": "Weight",
+          "value": "700",
+          "postfix": "kg"
+        },
+        {
+          "title": "Height",
+          "value": "2",
+          "postfix": "m"
+        },
+        {
+          "title": "Color",
+          "value": "red",
+          "postfix": ""
+        },
+        {
+          "title": "Guarantee",
+          "value": "3",
+          "postfix": "year"
+        }
+      ],
+      "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lectus urna, pretium eget sapien vel, tincidunt dapibus libero. Sed elit diam, tincidunt a erat nec, finibus dictum nibh. Vivamus sed lorem id lectus <b>ullamcorper tincidunt</b>. Nunc erat nulla, posuere in velit id, suscipit commodo lorem. Morbi aliquam vitae arcu sit amet mollis.</p><p>Donec varius justo justo, id lacinia arcu lacinia sit amet. Nunc quis leo quis arcu consectetur euismod. Nunc volutpat tempus sem, id bibendum nibh blandit et. Aliquam in mi aliquam, varius sem et, rutrum enim. Sed lacinia elit vel elementum pharetra. Proin maximus orci vel odio viverra gravida. Quisque et augue sed purus interdum congue quis ac nibh.</p>"
+    },
+    {
+      "id": "127",
+      "title": "Product item 7",
+      "link": "product7",
+      "categoryLink": "/category",
+      "image": "img1.jpg",
+      "price": "2000",
+      "discount": 0,
+      "characteristic": [
+        {
+          "title": "Weight",
+          "value": "700",
+          "postfix": "kg"
+        },
+        {
+          "title": "Height",
+          "value": "2",
+          "postfix": "m"
+        },
+        {
+          "title": "Color",
+          "value": "red",
+          "postfix": ""
+        },
+        {
+          "title": "Guarantee",
+          "value": "3",
+          "postfix": "year"
+        }
+      ],
+      "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lectus urna, pretium eget sapien vel, tincidunt dapibus libero. Sed elit diam, tincidunt a erat nec, finibus dictum nibh. Vivamus sed lorem id lectus <b>ullamcorper tincidunt</b>. Nunc erat nulla, posuere in velit id, suscipit commodo lorem. Morbi aliquam vitae arcu sit amet mollis.</p><p>Donec varius justo justo, id lacinia arcu lacinia sit amet. Nunc quis leo quis arcu consectetur euismod. Nunc volutpat tempus sem, id bibendum nibh blandit et. Aliquam in mi aliquam, varius sem et, rutrum enim. Sed lacinia elit vel elementum pharetra. Proin maximus orci vel odio viverra gravida. Quisque et augue sed purus interdum congue quis ac nibh.</p>"
+    },
+    {
+      "id": "8",
+      "title": "Product item 8",
+      "link": "product8",
+      "categoryLink": "/category",
+      "image": "img3.jpg",
+      "price": "1800",
+      "discount": 0,
+      "characteristic": [
+        {
+          "title": "Weight",
+          "value": "700",
+          "postfix": "kg"
+        },
+        {
+          "title": "Height",
+          "value": "2",
+          "postfix": "m"
+        },
+        {
+          "title": "Color",
+          "value": "red",
+          "postfix": ""
+        },
+        {
+          "title": "Guarantee",
+          "value": "3",
+          "postfix": "year"
+        }
+      ],
+      "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lectus urna, pretium eget sapien vel, tincidunt dapibus libero. Sed elit diam, tincidunt a erat nec, finibus dictum nibh. Vivamus sed lorem id lectus <b>ullamcorper tincidunt</b>. Nunc erat nulla, posuere in velit id, suscipit commodo lorem. Morbi aliquam vitae arcu sit amet mollis.</p><p>Donec varius justo justo, id lacinia arcu lacinia sit amet. Nunc quis leo quis arcu consectetur euismod. Nunc volutpat tempus sem, id bibendum nibh blandit et. Aliquam in mi aliquam, varius sem et, rutrum enim. Sed lacinia elit vel elementum pharetra. Proin maximus orci vel odio viverra gravida. Quisque et augue sed purus interdum congue quis ac nibh.</p>"
+    },
+    {
+      "id": "9",
+      "title": "Product item 9",
+      "link": "product9",
+      "categoryLink": "/category",
+      "image": "img2.jpg",
+      "price": "1800",
+      "discount": 15,
+      "characteristic": [
+        {
+          "title": "Weight",
+          "value": "700",
+          "postfix": "kg"
+        },
+        {
+          "title": "Height",
+          "value": "2",
+          "postfix": "m"
+        },
+        {
+          "title": "Color",
+          "value": "red",
+          "postfix": ""
+        },
+        {
+          "title": "Guarantee",
+          "value": "3",
+          "postfix": "year"
+        }
+      ],
+      "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lectus urna, pretium eget sapien vel, tincidunt dapibus libero. Sed elit diam, tincidunt a erat nec, finibus dictum nibh. Vivamus sed lorem id lectus <b>ullamcorper tincidunt</b>. Nunc erat nulla, posuere in velit id, suscipit commodo lorem. Morbi aliquam vitae arcu sit amet mollis.</p><p>Donec varius justo justo, id lacinia arcu lacinia sit amet. Nunc quis leo quis arcu consectetur euismod. Nunc volutpat tempus sem, id bibendum nibh blandit et. Aliquam in mi aliquam, varius sem et, rutrum enim. Sed lacinia elit vel elementum pharetra. Proin maximus orci vel odio viverra gravida. Quisque et augue sed purus interdum congue quis ac nibh.</p>"
+    }
+  ]
+}

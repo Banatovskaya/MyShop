@@ -1,58 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
 import './App.css';
+import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomePage from './components/pages/homePage';
+import ProductCategoryPage from './components/pages/productCategoryPage';
+import About from './components/pages/about';
+import ProductPage from './components/pages/productPage';
+import CartList from './components/pages/cart';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Counter />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <span>
-          <span>Learn </span>
-          <a
-            className="App-link"
-            href="https://reactjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux-toolkit.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux Toolkit
-          </a>
-          ,<span> and </span>
-          <a
-            className="App-link"
-            href="https://react-redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React Redux
-          </a>
-        </span>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+  
+	return (
+		<>
+			<Router>	
+				<Routes>
+					<Route path="/" element={<HomePage/>}/>	
+					<Route path="/about" element={<About/>}/>		
+					<Route path="/category" element={<ProductCategoryPage/>}/>
+					<Route path="/category/:id" element={<ProductPage/>}/>
+					<Route path="/cart" element={<CartList/>}/>
+				</Routes>
+			</Router>
+		</>
+	);
+};
 
 export default App;

@@ -1,0 +1,12 @@
+{
+  "menu": [
+    {
+      "linkText": "Home page",
+      "link": "/"
+    },
+    {
+      "linkText": "Product Category",
+      "link": "/category"
+    }
+  ]
+}
