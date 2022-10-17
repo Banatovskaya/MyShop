@@ -4,7 +4,7 @@ export const postAPI = createApi({
     reducerPath: 'postAPI',
     baseQuery: fetchBaseQuery({
         // baseUrl: 'http://localhost:3001'
-        baseUrl: 'https://my-cat-shop.herokuapp.com/api'
+        baseUrl: 'https://my-cat-shop.herokuapp.com'
 
     }),
     endpoints: builder => ({
