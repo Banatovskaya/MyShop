@@ -1,6 +1,6 @@
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
-import { postAPI } from '../store/servises/postService';
+import { postAPI } from '../store/services/postService';
 import ProductsListItem from './productCategoryListItem';
 
 const ProductsList = () => {

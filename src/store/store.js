@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit';
-import { postAPI } from './servises/postService';
+import { postAPI } from './services/postService';
 import  cartList  from './shoppingCartSlice';
 import currentProduct from './productsSlice';
 
