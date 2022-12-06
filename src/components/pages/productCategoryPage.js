@@ -1,4 +1,4 @@
-import UsersMenu from "../menu/menu";
+import UsersMenu from "../menu";
 import ProductsList from "../productCategoryList";
 
 const ProductCategoryPage = () => {

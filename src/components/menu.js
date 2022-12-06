@@ -12,7 +12,7 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import {NavLink,} from "react-router-dom";
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import { postAPI } from '../../store/services/postService';
+import { postAPI } from '../store/services/postService';
 import Badge from '@mui/material/Badge';
 import {useSelector} from "react-redux";
 

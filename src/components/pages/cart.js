@@ -1,4 +1,4 @@
-import Menu from "../menu/menu";
+import Menu from "../menu";
 import { cartListDelete, cartListDeleteItem, cartListAmountSet} from "../../store/shoppingCartSlice";
 import { useSelector } from "react-redux";
 import { useDispatch } from 'react-redux';
@@ -19,8 +19,7 @@ const CartList = () => {
     const selectorCart = state => state.cartList.cart;
     const cart = useSelector(selectorCart);
     const dispatch = useDispatch();
-
-    let resultForPayment = () => {
+    const resultForPayment = () => {
         let value = 0;
         cart.forEach((item, idx) => {
             value = value + item.amount*item.discountPrice        
@@ -28,21 +27,21 @@ const CartList = () => {
         return value;
     };
 
-    let setValue = (value, id) => {
+    const setValue = (value, id) => {
         let amount = +value;
         if (isNaN(amount) || amount < 1) {amount = 1};
         if (amount > 99) {amount = 99};
         dispatch(cartListAmountSet({amount, id}));
     };
 
-    let increaseValue = (amount, id) => {
+    const increaseValue = (amount, id) => {
         if (amount >= 99) {
             amount = 99
         } else {amount = +amount + 1};
         dispatch(cartListAmountSet({amount, id}));
     };
 
-    let decreaseValue = (amount, id) => {
+    const decreaseValue = (amount, id) => {
         if (amount <= 1) {
             amount = 1} else amount = +amount - 1;
         dispatch(cartListAmountSet({amount, id}));

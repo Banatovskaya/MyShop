@@ -1,4 +1,4 @@
-import UsersMenu from "../menu/menu";
+import UsersMenu from "../menu";
 import * as React from 'react';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';

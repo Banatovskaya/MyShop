@@ -1,4 +1,4 @@
-import UsersMenu from "../menu/menu"
+import UsersMenu from "../menu"
 import Container from '@mui/material/Container';
 
 const About = () => {

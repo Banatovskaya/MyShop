@@ -1,12 +1,15 @@
-import Menu from "../menu/menu";
+import Menu from "../menu";
 import Container from '@mui/material/Container';
 import React from 'react';
 import Carousel from 'react-gallery-carousel';
 import 'react-gallery-carousel/dist/index.css';
 import { postAPI } from "../../store/services/postService";
 import imgErr from '../../assets/img.jpg';
+import Views from "../views";
+import { Divider } from "@mui/material";
 
 const HomePage = () => {
+    const idImgForCarousel = [1,3,127];
     const {
         data: products = [] ,
         isfetshing,
@@ -27,14 +30,14 @@ const HomePage = () => {
             const itemForSlider = products.find((item) => (+item.id === el))
             if (itemForSlider) {arr.push(itemForSlider)}  
         });
-        if (arr.length <= 0){
+        if (arr.length === 0){
             return [{src: imgErr}]
         } else {
             return arr.map((item) => ({src: `../images/${item.image}`})) 
         };
     };
 
-    const idImgForCarousel = [1,3,127];
+    
     const images = getImages(idImgForCarousel, products);
    
     return (
@@ -42,8 +45,9 @@ const HomePage = () => {
         <Menu/>
         <Container maxWidth="sm" sx={{mt:13 }} >
             <Carousel images={(images)} />
-            <h2>нижче будуть останні перегляди</h2>
         </Container>
+        <Divider sx={{pt:5}} />
+        <Views/>
         </>
     )
 }
