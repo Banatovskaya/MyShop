@@ -3,8 +3,8 @@ import {createApi, fetchBaseQuery} from '@reduxjs/toolkit/query/react';
 export const postAPI = createApi({
     reducerPath: 'postAPI',
     baseQuery: fetchBaseQuery({
-        // baseUrl: 'http://localhost:3001'
-        baseUrl: 'https://myshopcat.herokuapp.com/api'
+        baseUrl: 'http://localhost:3001'
+        // baseUrl: 'https://myshopcat.herokuapp.com/api'
 
     }),
     endpoints: builder => ({
